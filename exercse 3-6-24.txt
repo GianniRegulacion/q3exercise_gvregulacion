@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Random Number Generator</title>
+</head>
+<body>
+    <script >
+
+ let a = Math.random() * 1001;  
+ let b = parseInt(a)
+
+    document.write("Randomly generated number: " + b )
+#
+let b1 = 2;
+let b2 = 1;
+let b3 = 3;
+    document.write("Breakdown: " + )
+    
+    currentDate = new Date().toDateString();
+    document.write("Result outputted:" + currentDate )
+
+
+    </script>
+    
+</body>
+</html>
+
+let num = a
+
+ var ones = Math.floor(num % 10),
+    tens = Math.floor(num/10 % 10),
+    hundreds = Math.floor(num/100 % 10),
+    thousands = Math.floor(num/1000 % 10),
+
+
+
+console.console.log();("\nBreakdown: " + thousands + ", " + hundreds + ", " + tens + ", " + ones)
+
+
+if (new Date().getHours() < 10) {
+  document.getElementById("demo").innerHTML = "Good day!";
+
+
+
+
+
+
+   function parseNum(num) {
+    return ('' + num).split('').reverse().map(function (num, idx) {       
+        return num *  Math.pow(10, idx);
+    }).reverse().join(' + ');    }
+
+    log(parseNum(num));
+    
+    function log( val){
+    $('body').append( val +'<br>')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Random Number Generator</title>
+</head>
+<body>
+    <script >
+
+ let a = Math.random() * 1001;  
+ let b = parseInt(a)
+
+    document.write("Randomly generated number: " + b + "</br>")
+
+    let c = a;
+
+
+    var ones = Math.floor(num % 10),
+    tens = Math.floor(num/10 % 10),
+    hundreds = Math.floor(num/100 % 10),
+    thousands = Math.floor(num/1000 % 10),
+
+    
+
+
+    currentDate = new Date().toDateString();
+    document.write("</br>" + "Result outputted:" + currentDate )
+
+
+    </script>
+    
+</body>
+</html>
+
+
+let 
+
+
+if (CharAt(4)>0)
+{
+document.getElement
