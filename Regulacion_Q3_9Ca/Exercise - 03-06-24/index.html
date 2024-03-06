@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Random Number Generator</title>
+</head>
+<body>
+    <script >
+
+ let a = Math.random() * 1001;  
+ let b = parseInt(a)
+
+    document.write("Randomly generated number: " + b + "</br>")
+
+let num = a; 
+let ans = num;
+
+    function parseNum(num) {
+    return ('' + num).split('').reverse().map(function (num, idx) {       
+        return num *  Math.pow(10, idx);
+    }).reverse().join(' + ');    }
+
+    log(parseNum(num));
+    
+    function log( val){
+    $('body').append( val +'<br>')
+}
+
+
+    currentDate = new Date().toDateString();
+    document.write("</br>" + "Result outputted:" + currentDate )
+
+
+    </script>
+    
+</body>
+</html>
